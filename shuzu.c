@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // 一个整型数组的指针，长度为 len， 得到数组中的最小值和最大值 ———— 从外部传入两个指针，从而将所求的两个结果保存带出来，得到多个返回值。
-void minMax(int a[], int len, int *min, int *max) {
+void minMax(int a[], int len, int *min, int *max) { //函数内 sizeof（a）不能使用，要再函数外先计算出长度
     int i;
     
     *min = *max = a[0]; //假定最大值 最小值相等 为a[0]  
