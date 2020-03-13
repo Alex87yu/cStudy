@@ -7,7 +7,7 @@
 clock_t start, stop;//开始时刻，结束时刻
 double duration;// 时间=结束-开始
 #define MAXN 100 //数列长度
-#define MAXK 1e4  //程序循环次数
+#define MAXK 1e7  //程序循环次数
 double f1(int n, double a[], double x); //计算方法1
 double f2(int n, double a[], double x);
 double a[MAXN];
