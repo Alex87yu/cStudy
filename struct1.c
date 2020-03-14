@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct {            //使用tpedef后，后面每次BOOKS 前就不用加struct了。注意BOOKS的位置，一个在{}前，一个在后。
+typedef struct BOOK { //使用tpedef后，BOOK==struct BOOK
 
 
     char bookName[10];
